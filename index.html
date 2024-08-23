@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Αρχική</title>
+</head>
+<body>
+   
+    <!--navbar-expand-lg navbar-dark bg-dark-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand"  href="index.html" >ΜΜ</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" data-lang="home">Αρχική</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" data-lang="about">Σχετικά με Εμένα</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html" data-lang="projects">Εργασίες</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="experience.html" data-lang="experience">Εμπειρία</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" data-lang="contact">Επικοινωνία</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-primary mx-1" onclick="switchLanguage('en')">English</button>
+                        <button class="btn btn-secondary mx-1" onclick="switchLanguage('el')">Ελληνικά</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container mt-4">
+        <br> <br> <br>
+        
+        <h1 data-lang="welcome"><b>Καλωσορίσατε στο Portfolio μου!</b></h1>
+        <br><br>
+    
+        <h2 data-lang="intro1">Ποιός Είμαι</h2>
+        <br> 
+        <p data-lang="WhoIAm">Έιμαι ο Μηλιαζήμ Μουράτ, σπουδαστής στο ΣΑΕΚ ΔΕΛΤΑ 360 με ειδικότητα Τεχνικός Εφαρμογών Πληροφορικής. Με πάθος για την τεχνολογία και την καινοτομία, αναπτύσσω συνεχώς τις δεξιότητες μου στον τομέα της πληροφορικής, εστιάζοντας στη δημιουργία αποτελεσματικών και πρωτοποριακών λύσεων.</p>
+        <br> <hr> <br>
+    
+        <h2 data-lang="intro2">Ο Στόχος μου</h2>
+        <br>
+
+        <p data-lang="MyGoal">Στόχος μου είναι να συνδυάσω τη θεωρητική γνώση με την πρακτική εμπειρία, ώστε να δημιουργώ καινοτόμες και αποδοτικές εφαρμογές. Είμαι αφοσιωμένος στη συνεχή βελτίωση και στην αναζήτηση νέων ευκαιριών για να εξελιχθώ επαγγελματικά.</p>
+        <br><hr> 
+   
+        <h2 data-lang="intro3">Αξίες και Όραμα</h2>
+        <br>
+        
+        <p data-lang="ValuesAndVision">Πιστεύω στη δύναμη της τεχνολογίας να αλλάξει τον κόσμο προς το καλύτερο. Οι βασικές μου αξίες περιλαμβάνουν: </p>
+         
+         <h6 data-lang="Collaboration"><b> - Συνεργασία:</b> Η ομαδική εργασία οδηγεί σε καλύτερα αποτελέσματα.</h6>
+         <h6 data-lang="Innovation"> <b> - Καινοτομία:</b> Η συνεχής αναζήτηση νέων και βελτιωμένων τρόπων για την επίλυση προβλημάτων.</h6>
+          <h6 data-lang="Dedication"> <b> - Αφοσίωση:</b> Δέσμευση στην ποιότητα και στην επίτευξη των στόχων.</h6>
+            <p></p>
+        <p data-lang="Vision"> Το όραμά μου είναι να γίνω ένας καταξιωμένος επαγγελματίας στον τομέα της πληροφορικής, συμβάλλοντας με τις γνώσης και τις δεξιότητές μου στη δημιουργία τεχνολογικών λύσεων που βελτιώνουν την καθημερινή ζωή των ανθρώπων.</p>
+    
+        <br> <br>
+         </main>
+    <button onclick="scrollToTop()" id="scrollToTopBtn">↑</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
